@@ -1,3 +1,7 @@
+/*for more information on CSS selectors and css properties (style options), */
+/*visit https://developer.mozilla.org/en-US/docs/Web/CSS/Reference*/
+/*and http://www.stylinwithcss.com/resources_css_properties.php*/
+
 /*if we want to style a whole element, our style name will be the name of our element*/
 body {
     margin: 0 auto;
