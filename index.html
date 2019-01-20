@@ -1,28 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+    <!--everything in our <head></head> is not visible on our page-->
     <head>
         <meta charset="utf-8" />
+        <!--here we are linking our CSS style file to our page so we can apply our styles-->
         <link href="css/style.css" rel="stylesheet" />
+        <!--this title will appear as the browser tab name as well as google search-->
         <title>Mad Libs</title>
     </head>
     <body>
         <h1>Mad Libs</h1>
+        <!--for each input, make sure we give it a unique id-->
+        <!--we need to specify which input our label goes to, so we should add our input id there as well-->
         <p>
             <label for="noun">Noun: </label><input type="text" id="noun" />
         </p>
+        <!--if we use the same id for different inputs, 
+        the function may not know which input value we're referring to-->
         <p>
             <label for="adjective">Adjective: </label><input type="text" id="adjective" />
         </p>
         <p>
             <label for="name">Someone's name: </label><input type="text" id="name" />
         </p>
-
+        <!--in our button, we want our function to be called when we click the button-->
         <button id="lib-button" onclick="libIt()">Lib it!</button>
 
         <div id="story" class="story">
+            <!--this is our placeholder text, when we set the innerHTML for this container in our function,-->
+            <!--it will replace everything between our <div></div> tags-->
+            <!--this placeholder text is optional-->
             Mad Lib Will Go here
         </div>
-
+        <!--we need to link our javascript file to our page so we can call our function-->
         <script src="javascript/createMadLib.js"></script>
     </body>
 </html>
