@@ -1,9 +1,10 @@
+/*if we want to style a whole element, our style name will be the name of our element*/
 body {
     margin: 0 auto;
     font-family: Arial, sans-serif;
     text-align: center;
 }
-
+/*note that all h1 elements will now have this style*/
 h1 {
     font-family: Tahoma, sans-serif;
     color: lightcoral;
@@ -19,7 +20,8 @@ button {
     background-color: lightpink;
     font-size: 18px;
 }
-
+/*if we only want to style specific elements, we add a class*/
+/*in CSS, classes are prefixed with a dot .*/
 .story {
     padding-top: 15px;
 }
