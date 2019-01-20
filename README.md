@@ -54,6 +54,6 @@ able to use it on the server side (we can use it to control how data is moved ab
 and non-web applications such as desktop applications and mobile apps!
 
 There's a lot fo learn here so let's get to the basics:
-
+* [**JavaScript**](./docs/javascript.md)
 
 
